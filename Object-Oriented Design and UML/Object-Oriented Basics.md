@@ -102,7 +102,7 @@
     ```python
     from abc import ABCMeta, abstractmethod
 
-    class IHuman(metaclass=ABSMeta):
+    class IHuman(metaclass=ABCMeta):
     
         def eat(self):
             None
