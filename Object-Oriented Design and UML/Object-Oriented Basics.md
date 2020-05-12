@@ -186,7 +186,7 @@
     ```java
 
     abstract class Animal {
-        abstrack void eat()
+        abstract void eat()
     }
 
     class Cat extends Animal {
